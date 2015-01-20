@@ -1,0 +1,31 @@
+{
+  "name": "Polymer-Landy",
+  "version": "0.0.1",
+  "homepage": "kazikai.github.io",
+  "authors": [
+    "kazikai84@gmail.com"
+  ],
+  "description": "Responsive Web Page Template by using Polymer",
+  "main": "polymer-index.html",
+  "moduleType": [
+    "amd"
+  ],
+  "keywords": [
+    "Polymer",
+    "Landy",
+    "Responsive"
+  ],
+  "license": "MIT",
+  "private": true,
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "polymer": "Polymer/polymer#~0.5.2",
+    "webcomponentsjs": "~0.5.2"
+  }
+}
