@@ -1,3 +1,8 @@
+#반응형 웹사이트 템플릿 연습 페이지
+
+아래 Landy를 참조 했음
+
+
 #Landy
 
 **A flexible one-page fully responsive HTML template for your app**
@@ -38,7 +43,7 @@ The template is built upon the Bootstrap 3 framework (getbootstrap.com) and you 
    </div>
    <div class=”col-md-6”>
    ...
-   </div> 
+   </div>
 </div>
 ```
 
@@ -52,13 +57,13 @@ The theme has various CSS ﬁles, many of which you probably wont touch, but her
 
 **bootstrap.min.css** - This is the css framework provided by Bootstrap and includes the basic styling for the page (grid etc) and all the styles related to the framework itself. You probably wont need to touch this.
 
-**animate.min.css** - This includes the styling of the Daniel Edenʼs CSS3 
-animation library Animate.css. Animations are triggered via Javascript in the 
+**animate.min.css** - This includes the styling of the Daniel Edenʼs CSS3
+animation library Animate.css. Animations are triggered via Javascript in the
 scripts.js ﬁle.
 
-**style.css** - This is the main style ﬁle that includes the styling for all the visual 
-elements in the template. This is the one you will likely edit when you want to 
-make adjustments (remember to use the Chrome inspector, it will tell you 
+**style.css** - This is the main style ﬁle that includes the styling for all the visual
+elements in the template. This is the one you will likely edit when you want to
+make adjustments (remember to use the Chrome inspector, it will tell you
 which line of css to edit and in which ﬁle!)
 
 ##3. Javascript Files
@@ -109,7 +114,7 @@ For example, for the facebook icon, you would do this:
 ```
 ##Copyright and Licensing
 
-Code and documentation © Paolo Tripodi, 2014. 
+Code and documentation © Paolo Tripodi, 2014.
 Code released under <a href="https://github.com/paolotripodi/Landy-v1.0/blob/master/LICENSE.md" alt="MIT Lincense">MIT</a>
 
 <hr/>
