@@ -5,7 +5,6 @@
 * 기본 html/css/js 파일 원본은 아래의 사이트를 fork 함
 * [Landy](http://landy.paolotripodi.com)
 
-
 #사용하기 전에
 Polymer에서 bower를 사용했으므로 다음 패키지들이 필요 합니다.
 또한 내부 웹서버를 구동 시켜야 하므로 http-server 를 설치 합니다.
@@ -19,4 +18,10 @@ Polymer에서 bower를 사용했으므로 다음 패키지들이 필요 합니�
 
 * 127.0.0.1:8080/index.html( 메인 페이지 )
 * 127.0.0.1:8080/polymer-index.html( polymer 적용 메인 페이지 )
+
+
+#참고
+* 아래의 링크에서 해당 github 소스를 사용했습니다.
+* [슬라이드쉐어자료참고](http://www.slideshare.net/kazikai/polymer-43730469)
+
 
