@@ -2,8 +2,8 @@
 * Polymer 관련 예제로 활용했음
 * 기존의 Template 사이트를 Polymer 로 쪼개봄
 * Polymer CSS & JS 포맷은 최대한 사용을 배제하고 element 위주로만
-
-* [Landy](http://landy.paolotripodi.com) 를 참조 했음
+* 기본 html/css/js 파일 원본은 아래의 사이트를 fork 함
+* [Landy](http://landy.paolotripodi.com)
 
 
 #사용하기 전에
