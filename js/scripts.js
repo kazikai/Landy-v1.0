@@ -1,17 +1,17 @@
 // toggle visibility for css3 animations
 $(document).ready(function() {
-    $('header').addClass('visibility');
-    $('.carousel-iphone').addClass('visibility');
-    $('.payoff h1').addClass('visibility');
-    $('.features .col-md-4').addClass('visibility');
-    $('.social .col-md-12').addClass('visibility');
+    $('body /deep/ header').addClass('visibility');
+    $('body /deep/ .carousel-iphone').addClass('visibility');
+    $('body /deep/ .payoff h1').addClass('visibility');
+    $('body /deep/ .features .col-md-4').addClass('visibility');
+    $('body /deep/ .social .col-md-12').addClass('visibility');
 });
 
 
 //iphone carousel animation
 $(window).load(function () {
-    $('header').addClass("animated fadeIn");
-    $('.carousel-iphone').addClass("animated fadeInLeft");
+    $('body /deep/ header').addClass("animated fadeIn");
+    $('body /deep/ .carousel-iphone').addClass("animated fadeInLeft");
 });
 
 // Fixed navbar
@@ -20,17 +20,17 @@ $(window).scroll(function () {
 var scrollTop = $(window).scrollTop();
 
     if (scrollTop > 200) {
-        $('.navbar-default').css('display', 'block');
-        $('.navbar-default').addClass('fixed-to-top');
+        $('body /deep/ .navbar-default').css('display', 'block');
+        $('body /deep/ .navbar-default').addClass('fixed-to-top');
 
     } else if (scrollTop == 0)   {
 
-        $('.navbar-default').removeClass('fixed-to-top');
+        $('body /deep/ .navbar-default').removeClass('fixed-to-top');
     }
 
 
 //animations
-    $('.payoff h1').each(function(){
+    $('body /deep/ .payoff h1').each(function(){
 
         var imagePos = $(this).offset().top;
         var topOfWindow = $(window).scrollTop();
@@ -41,7 +41,7 @@ var scrollTop = $(window).scrollTop();
 
     });
 
-    $('.purchase button.app-store').each(function(){
+    $('body /deep/ purchase button.app-store').each(function(){
 
         var imagePos = $(this).offset().top;
         var topOfWindow = $(window).scrollTop();
@@ -52,7 +52,7 @@ var scrollTop = $(window).scrollTop();
 
     });
 
-    $('.features .col-md-4').each(function(){
+    $('body /deep/ .features .col-md-4').each(function(){
 
         var imagePos = $(this).offset().top;
         var topOfWindow = $(window).scrollTop();
@@ -63,7 +63,7 @@ var scrollTop = $(window).scrollTop();
 
     });
 
-    $('.social .col-md-12').each(function(){
+    $('body /deep/ .social .col-md-12').each(function(){
 
         var imagePos = $(this).offset().top;
         var topOfWindow = $(window).scrollTop();
@@ -74,7 +74,7 @@ var scrollTop = $(window).scrollTop();
 
     });
 
-    $('.get-it button.app-store').each(function(){
+    $('body /deep/ .get-it button.app-store').each(function(){
 
         var imagePos = $(this).offset().top;
         var topOfWindow = $(window).scrollTop();
@@ -105,8 +105,8 @@ function parallax() {
         var scaleBg = -$(window).scrollTop() / 3;
 
         if (iOS === false) {
-            $('.payoff').css('background-position-y', scaleBg - 150);
-            $('.social').css('background-position-y', scaleBg + 200);
+            $('body /deep/ .payoff').css('background-position-y', scaleBg - 150);
+            $('body /deep/ .social').css('background-position-y', scaleBg + 200);
         }
 
 }
@@ -114,9 +114,9 @@ function parallax() {
 function navbar() {
 
     if ($(window).scrollTop() > 1) {
-        $('#navigation').addClass('show-nav');
+        $('body /deep/ #navigation').addClass('show-nav');
     } else {
-        $('#navigation').removeClass('show-nav');
+        $('body /deep/ #navigation').removeClass('show-nav');
     }
 
 }
@@ -154,12 +154,12 @@ $(window).resize(function () {
 
 
 // iPhone Header Carousel
-$('header .carousel').carousel({
+$('body /deep/ header .carousel').carousel({
   interval: 3000
 })
 
 // iPhone Features Carousel
-$('.detail .carousel').carousel({
+$('body /deep/ .detail .carousel').carousel({
   interval: 4000
 })
 
